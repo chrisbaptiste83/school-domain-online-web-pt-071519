@@ -12,7 +12,7 @@ class School
   
 
   def grade(grade_level)
-@roster.each.do {|key, value| if key == grade_level return value}
+roster.each.do {|key, value| if key == grade_level return value}
 end 
 end 
 
